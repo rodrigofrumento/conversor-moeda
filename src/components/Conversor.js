@@ -13,7 +13,7 @@ export default class Conversor extends Component {
     }
 
     converter(){
-        let API_KEY = `10659e7ddc621038990e`
+        let API_KEY = `API_KEY`
         let de_para = `${this.props.moedaA}_${this.props.moedaB}`
         let api = `https://free.currconv.com`
 
